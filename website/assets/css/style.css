@@ -1,3 +1,9 @@
 body{
-    background: #BDBDBD;
+    background: white;
+    width: 2400px;
+}
+
+#imagen-proyecto{
+    width:750px ;
+    height:500px ;
 }
