@@ -4,6 +4,17 @@ body{
 }
 
 #imagen-proyecto{
-    width:750px ;
-    height:500px ;
+    width: 700px;
+    height:400px ;
 }
+
+.portafolio{
+    display:flex;
+    width: 100%;
+
+}
+.caja-principal{
+    width: 95%;
+    margin: 0 auto;
+}
+
