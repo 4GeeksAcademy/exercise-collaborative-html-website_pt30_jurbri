@@ -17,4 +17,12 @@ body{
     width: 95%;
     margin: 0 auto;
 }
+.contact{margin: 0 auto 
+    ;
+}
 
+.contact-sub{
+    width: 80%;
+    background-color: gray;
+
+}
