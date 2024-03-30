@@ -1,28 +1,43 @@
 body{
     background: white;
-    width: 2400px;
 }
 
-#imagen-proyecto{
-    width: 700px;
-    height:400px ;
-}
 
-.portafolio{
-    display:flex;
-    width: 100%;
-
-}
-.caja-principal{
+.container-heading{
+    display: flex;
+    align-items: center;
     width: 95%;
-    margin: 0 auto;
 }
 .contact{margin: 0 auto 
     ;
 }
 
-.contact-sub{
-    width: 80%;
-    background-color: gray;
-
+.content-heading{
+    flex: 1;
+    margin-right: 20px;
 }
+
+.primer-circulo{
+    border-radius: 50%;
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+
+.container-services{
+    display: flex;
+    align-items: center;
+    width: 95%;
+}
+
+.content-services{
+    flex: 1;
+    margin-left: 20px;
+}
+.segundo-circulo{
+    border-radius: 50%;
+    float: left;
+    width: 300px;
+    height: 300px;
+
+}    
