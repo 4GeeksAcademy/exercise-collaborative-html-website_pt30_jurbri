@@ -1,5 +1,7 @@
 body{
     background: white;
+    width: 2600px;
+    margin: 0 auto;
 }
 
 
@@ -8,8 +10,11 @@ body{
     align-items: center;
     width: 95%;
 }
-.contact{margin: 0 auto 
-    ;
+.contact-principal{margin: 0 auto;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
 }
 
 .content-heading{
@@ -41,3 +46,41 @@ body{
     height: 300px;
 
 }    
+.portafolio-principal{margin: 0 auto;
+width: 100%;
+margin-bottom: 80px;}
+
+.portafolio{display: flex;
+margin: 0 auto;
+justify-content: space-between;}
+#imagen-proyecto{width: 700px;
+height: 400px;}
+
+.formulario-contact{ width: 900px;
+height: 300px;
+margin: 0 auto;
+border: 1px solid lightgray;
+background-color: rgb(225, 225, 225);}
+
+.emailform{ margin-top: 10px;
+margin-left: 15px;
+margin-right: 5px;
+margin-bottom: 100px;}
+
+.btn-contact{float:right;
+margin-right: 10px;}
+
+.textform{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+p{font-size: 32px;
+}
+.kai{font-size: 25px;}
+
+.project{color: rgb(86, 86, 230);
+font-size: 35px;}
+
+h2{font-size: 60px;}
+hr{color: lightgray;}
