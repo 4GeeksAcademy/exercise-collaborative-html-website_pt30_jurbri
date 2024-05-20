@@ -1,10 +1,50 @@
 body{
     background: white;
-    width: 2600px;
+    width: 1200px;
     margin: 0 auto;
 }
 
+navbar{
+    width: 50%;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
+.tagline {
+    text-align: center;
+    background-image: url("./../img/bg.jpg");
+    background-color: rgb(250, 252, 254);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+
+
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .container-heading{
     display: flex;
     align-items: center;
